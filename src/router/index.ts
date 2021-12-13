@@ -7,8 +7,7 @@ const router = createRouter({
 });
 
 router.beforeResolve(async (to) => {
-  console.log(to)
-  document.title = `${document.title.split("—")[0]}—${to.meta.title}`;
+  document.title = `${to.meta.title}`;
 });
 
 export default router;

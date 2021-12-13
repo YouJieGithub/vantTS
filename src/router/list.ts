@@ -10,27 +10,28 @@ declare module "vue-router" {
 }
 export const routes: Array<RouteRecordRaw> = [
   {
-    path: "/",
+    path: "/exam",
     name: "exam",
     meta: { title: "考试" },
     component: () => import("@/view/exam/exam.vue"),
   },
   {
-    path: "/login",
-    name: "login",
-    meta: { title: "登录" },
-    component: () => import("@/view/login/login.vue"),
-  },
-  {
-    path: "/home",
+    path: "/",
     name: "home",
-    meta: { title: "首页" },
+    meta: { title: "店小二" },
     component: () => import("@/view/home/home.vue"),
   },
   {
-    path: "/register",
-    name: "register",
-    meta: { title: "注册" },
-    component: () => import("@/view/register/register.vue"),
+    path: "/questions",
+    name: "questions",
+    meta: { title: "店小二" },
+    component: () => import("@/view/questions/questions.vue"),
+  },
+  {
+    path: "/questionsstate",
+    name: "questionsstate",
+    meta: { title: "店小二" },
+    component: () => import("@/view/questionsstate/questionsstate.vue"),
   }
+
 ];

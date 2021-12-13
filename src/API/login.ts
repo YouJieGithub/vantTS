@@ -1,8 +1,9 @@
 import {IDataType, jjRequest} from "../service";
 
-export const successApi = () => {
-  return jjRequest.request<IDataType>({
-    url: "task/list",
-    method: "get",
-  });
+export const successApi = (data:any) => {
+    return jjRequest.request<IDataType>({
+        url: "/questions/getQuestions",
+        method: "post",
+        data: data
+    })
 };
