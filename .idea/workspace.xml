@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="vantTS">
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dxr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist(移动端).rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/InsuranceClaims.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/analyze.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/bank.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/baseinfo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/department.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/feedback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/infosource.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/material.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/notice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/personnel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/single.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/Insurance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/ListNone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/NotBank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/Pizzahut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/Single.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/SingleQuery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/accidentGuide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/cardBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/dai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/homeBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/itemsDamage.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/loginBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/newClaimsBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/notify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/personnelInjured.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/resign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/singleanalyze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/singleanalyzeBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/successfulIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/sure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/zhuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vantBase/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/areaPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/echarts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fontSvg.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/scrolllList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/list.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/request/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/desensitization.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isBank.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isEmpty.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isIDcard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isPhone.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Insurance/Insurance.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Insurance/InsuranceGuide.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Insurance/InsuranceRelation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/feedback/submitfeedback.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/material/materialList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/notice/noticedetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/notice/noticelist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/personal/base.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/personal/personalinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/personal/revisepassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/personnel/analyze.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/personnel/personnel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/register/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/register/registernotice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/register/registersuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/register/regnotdetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/resign/resign.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/resign/resignlist.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/salary/addsalarycard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/salary/salarycard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/single/singledetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="vantTS/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YouJieGithub&quot;
+  }
+}</component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d0e24087-4c13-4ed3-be05-bee28b53ef43" />
+        <option name="url" value="https://github.com/YouJieGithub/vantTS.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="24EBGoqfLPszAE8cV0EH2a4EFNj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/桌面/店小二移动端/dxr",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "D:\\桌面\\店小二移动端\\dxr\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\店小二移动端\dxr\src\assets\font" />
+      <recent name="D:\桌面\店小二移动端\dxr\src\assets\fontSvg" />
+      <recent name="D:\桌面\店小二移动端\dxr\src\assets\image" />
+      <recent name="D:\桌面\店小二移动端\dxr\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\店小二移动端\dxr\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name=".eslintrc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/.eslintrc.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js..eslintrc.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1643185786283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643185786283</updated>
+      <workItem from="1643185802162" duration="502000" />
+      <workItem from="1643186351452" duration="435000" />
+      <workItem from="1643186812961" duration="478000" />
+      <workItem from="1643187316679" duration="480000" />
+      <workItem from="1643187875455" duration="1062000" />
+      <workItem from="1643188999626" duration="282000" />
+      <workItem from="1643189314924" duration="2534000" />
+      <workItem from="1643192465933" duration="1194000" />
+      <workItem from="1643247290636" duration="2662000" />
+      <workItem from="1643250265869" duration="31000" />
+      <workItem from="1643252631515" duration="349000" />
+      <workItem from="1643265598532" duration="10844000" />
+      <workItem from="1643278353192" duration="4691000" />
+      <workItem from="1643349783999" duration="17685000" />
+      <workItem from="1644197666753" duration="44995000" />
+      <workItem from="1644543128754" duration="18697000" />
+      <workItem from="1644578407645" duration="41000" />
+      <workItem from="1644631364146" duration="17448000" />
+      <workItem from="1644809160380" duration="53940000" />
+      <workItem from="1646617137850" duration="1626000" />
+      <workItem from="1648032784862" duration="17000" />
+      <workItem from="1648633680957" duration="11000" />
+      <workItem from="1648639931871" duration="666000" />
+      <workItem from="1648640712932" duration="917000" />
+      <workItem from="1648642661842" duration="80260000" />
+      <workItem from="1649497284830" duration="17223000" />
+      <workItem from="1649900161826" duration="590000" />
+      <workItem from="1649986318946" duration="2507000" />
+      <workItem from="1650005432224" duration="25000" />
+      <workItem from="1650265883007" duration="82000" />
+      <workItem from="1650267934611" duration="41000" />
+      <workItem from="1650449875044" duration="8000" />
+      <workItem from="1651032027521" duration="957000" />
+      <workItem from="1651738367371" duration="6000" />
+      <workItem from="1658129571406" duration="138000" />
+      <workItem from="1658913318792" duration="56756000" />
+      <workItem from="1659664178971" duration="21578000" />
+      <workItem from="1661756973133" duration="96000" />
+      <workItem from="1661759699051" duration="840000" />
+      <workItem from="1661763966344" duration="1175000" />
+      <workItem from="1661765475927" duration="1493000" />
+      <workItem from="1661768880193" duration="14000" />
+      <workItem from="1661824443740" duration="139000" />
+      <workItem from="1661911612777" duration="638000" />
+      <workItem from="1661912356310" duration="10000" />
+      <workItem from="1661917526125" duration="9000" />
+      <workItem from="1661917716393" duration="15000" />
+      <workItem from="1661917746283" duration="33000" />
+      <workItem from="1661932651266" duration="23000" />
+      <workItem from="1661932815212" duration="653000" />
+      <workItem from="1661933821693" duration="21000" />
+      <workItem from="1661934365162" duration="17000" />
+      <workItem from="1662021727874" duration="768000" />
+      <workItem from="1662110461104" duration="773000" />
+      <workItem from="1662113201727" duration="10000" />
+      <workItem from="1664503847144" duration="246000" />
+      <workItem from="1665021920328" duration="6452000" />
+      <workItem from="1665028449341" duration="33896000" />
+      <workItem from="1665540534502" duration="1392000" />
+      <workItem from="1666077196101" duration="15000" />
+      <workItem from="1666170700056" duration="28531000" />
+      <workItem from="1666926171187" duration="3015000" />
+      <workItem from="1667012939303" duration="523000" />
+      <workItem from="1667963222777" duration="2134000" />
+      <workItem from="1668045004522" duration="593000" />
+      <workItem from="1668593322655" duration="57352000" />
+      <workItem from="1669194674131" duration="9505000" />
+      <workItem from="1669899314476" duration="64305000" />
+      <workItem from="1670376681776" duration="32096000" />
+      <workItem from="1670816300214" duration="1165000" />
+      <workItem from="1671439176968" duration="663000" />
+      <workItem from="1680512561655" duration="21000" />
+      <workItem from="1682316408510" duration="10187000" />
+      <workItem from="1684145705394" duration="7553000" />
+      <workItem from="1684377254453" duration="602000" />
+      <workItem from="1686626336600" duration="21000" />
+      <workItem from="1686627582296" duration="36000" />
+      <workItem from="1686641811863" duration="1907000" />
+      <workItem from="1686645584872" duration="103000" />
+      <workItem from="1686653120844" duration="95000" />
+      <workItem from="1686653332210" duration="30000" />
+      <workItem from="1688010952673" duration="54000" />
+      <workItem from="1688384615164" duration="52000" />
+      <workItem from="1688439329786" duration="1291000" />
+      <workItem from="1693203447932" duration="65288000" />
+      <workItem from="1693536006822" duration="99687000" />
+      <workItem from="1694056946023" duration="739000" />
+      <workItem from="1694057726145" duration="4945000" />
+      <workItem from="1694069951306" duration="653000" />
+    </task>
+    <task id="LOCAL-00001" summary="vantTS">
+      <created>1649497475573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649497475573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vantTS">
+      <created>1659176595012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659176595026</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vantTS">
+      <created>1659182708713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659182708713</updated>
+    </task>
+    <task id="LOCAL-00004" summary="vantTS">
+      <created>1666261149924</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666261149924</updated>
+    </task>
+    <task id="LOCAL-00005" summary="vantTS">
+      <created>1666261242241</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666261242241</updated>
+    </task>
+    <task id="LOCAL-00006" summary="vantTS">
+      <created>1669195378061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669195378061</updated>
+    </task>
+    <task id="LOCAL-00007" summary="vantTS">
+      <created>1669195602965</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669195602965</updated>
+    </task>
+    <task id="LOCAL-00008" summary="vantTS">
+      <created>1669948098270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669948098270</updated>
+    </task>
+    <task id="LOCAL-00009" summary="vantTS">
+      <created>1669951236128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669951236128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="vantTS">
+      <option name="closed" value="true" />
+      <created>1694068028501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694068028501</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="vantTS/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="vantTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="vantTS" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

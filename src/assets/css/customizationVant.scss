@@ -1,0 +1,13 @@
+//Search  搜素框
+
+.search-class {
+  ::v-deep(.van-field__control) {
+    font-size: 24px !important;
+  }
+
+  :deep(.van-search__content,.van-search__field) {
+    background: #ffffff;
+    border-radius: 4px;
+  }
+}
+
