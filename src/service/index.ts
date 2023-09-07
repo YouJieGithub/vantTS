@@ -36,7 +36,6 @@ const removePending = (config: AxiosRequestConfig) => {
 };
 
 let baseurl = import.meta.env;
-let askUrl: Array<string> = [];
 export const jjRequest = new JJRequest({
     baseURL: baseurl.VITE_APP_BASE_URL,
     timeout: 3000,

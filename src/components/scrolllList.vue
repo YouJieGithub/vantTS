@@ -6,7 +6,7 @@
     >
       <div v-for="(item, index) in props.list" :key="index" class="scroll-list-group"
            @click="router.push({path:item.url})">
-        <fontSvg :icon="item.icon" class="scroll-list-item-img"></fontSvg>
+        <font-svg :icon="item.icon" class="scroll-list-item-img"/>
         <p class="scroll-list-item-text">{{ item.title }}</p>
       </div>
     </div>
@@ -23,6 +23,7 @@
 </template>
 
 <script lang="ts" setup>
+import fontSvg from '@/components/fontSvg.vue';
 import {nextTick, onBeforeUnmount, onMounted, reactive, ref, watch,} from "vue";
 import {useRouter} from "vue-router/dist/vue-router";
 

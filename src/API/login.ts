@@ -1,4 +1,4 @@
-import {IDataType, jjRequest} from "../service";
+import {IDataType, jjRequest} from "@/service";
 
 /**
  * 用户注册

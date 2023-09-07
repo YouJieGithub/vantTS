@@ -53,7 +53,7 @@ const getStaffStatus = () => {
 
 const onConfirm = ({selectedValues}: any) => {
   show.value = false;
-  resignSave(selectedValues[0]).then(res => {
+  resignSave(selectedValues[0]).then(() => {
     showToast({message: '申请成功'});
     getStaffStatus()
   })

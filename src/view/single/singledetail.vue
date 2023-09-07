@@ -27,21 +27,21 @@
       <div class="collect-content-num">
         <div>{{ !summary.mnthlyCumulative ? 0 : summary.mnthlyCumulative }}</div>
         <div>
-          <fontSvg :class="'iconSvg'" :icon="'#icon-yueleijidanliang-87'"/>
+          <font-svg :class="'iconSvg'" :icon="'#icon-yueleijidanliang-87'"/>
           月累计单量
         </div>
       </div>
       <div class="collect-content-num">
         <div>{{ !summary.ailyAverage ? 0 : summary.ailyAverage }}</div>
         <div>
-          <fontSvg :class="'iconSvg'" :icon="'#icon-zuoridanliang-92'"/>
+          <font-svg :class="'iconSvg'" :icon="'#icon-zuoridanliang-92'"/>
           日均单量
         </div>
       </div>
       <div class="collect-content-num">
         <div>{{ !summary.apex ? 0 : summary.apex }}</div>
         <div>
-          <fontSvg :class="'iconSvg'" :icon="'#icon-fengzhidanliang-104'"/>
+          <font-svg :class="'iconSvg'" :icon="'#icon-fengzhidanliang-104'"/>
           峰值单量
         </div>
       </div>
@@ -89,6 +89,7 @@ import type {PickerOption} from 'vant';
 import {DatePicker, Icon, Popup, Sticky} from 'vant';
 import VEcharts from '@/components/echarts.vue';
 import HeadBack from '@/components/header.vue';
+import fontSvg from '@/components/fontSvg.vue';
 import {onBeforeMount, ref} from "vue";
 import dayjs from "dayjs";
 import {
@@ -179,7 +180,7 @@ const getRegion = (dataRes: any) => {
             axisLabel: {
               color: '#999999',
               fontSize: fontSize(20),
-              formatter: function (value: number, index: number) {
+              formatter: function (value: number) {
                 if (value >= 10000) {
                   return `${value / 10000}万`;
                 } else {
@@ -243,7 +244,7 @@ const getTrend = (dataRes: any) => {
                 axisLabel: {
                   color: '#999999',
                   fontSize: fontSize(20),
-                  formatter: function (value: number, index: number) {
+                  formatter: function (value: number) {
                     if (value >= 10000) {
                       return `${value / 10000}万`;
                     } else {

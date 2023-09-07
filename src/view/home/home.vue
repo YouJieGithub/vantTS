@@ -6,7 +6,7 @@
         <div class="page-user-info-img">
           <img alt="头像" src="@/assets/image/avatar.png">
           <div class="page-user-info-icon">
-            <fontSvg :icon="icon"></fontSvg>
+            <font-svg :icon="icon"/>
           </div>
         </div>
         <div class="page-user-info-title"><p>{{ username }}</p>
@@ -20,7 +20,7 @@
         <p>{{ quantityInfo.time }}</p>
         <p>{{ quantityInfo.yesterdayCount }}</p>
         <p>昨日单量
-          <fontSvg :class="'card-single-yesterday-icon'" :icon="'#icon-zuoridanliang-86'"></fontSvg>
+          <font-svg :class="'card-single-yesterday-icon'" :icon="'#icon-zuoridanliang-86'"/>
         </p>
       </div>
       <div class="card-single-total">
@@ -40,7 +40,7 @@
         <div class="menu-swiper-list">
           <template v-for="(item,index) in card" :key="index">
             <div v-if="item.status.includes(staffFlag)" @click="onToPage(item.url)">
-              <fontSvg :icon="item.icon"></fontSvg>
+              <font-svg :icon="item.icon"/>
               <p>{{ item.title }}</p>
             </div>
           </template>
@@ -74,6 +74,7 @@ import {useStore} from '@/store';
 import {useRouter} from "vue-router";
 import {orderQuantity} from "@/API/single";
 import {noticeHomeList} from "@/API/notice";
+import fontSvg from '@/components/fontSvg.vue';
 
 const router = useRouter();
 const store = useStore();

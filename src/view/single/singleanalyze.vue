@@ -90,7 +90,7 @@ const getRegion = (dataRes: any) => {
         axisLabel: {
           color: '#999999',
           fontSize: fontSize(20),
-          formatter: function (value: number, index: number) {
+          formatter: function (value: number) {
             if (value >= 10000) {
               return `${value / 10000}万`;
             } else {
@@ -145,7 +145,7 @@ const getTrend = (dataRes: object) => {
         axisLabel: {
           color: '#999999',
           fontSize: fontSize(20),
-          formatter: function (value: number, index: number) {
+          formatter: function (value: number) {
             if (value >= 10000) {
               return `${value / 10000}万`;
             } else {

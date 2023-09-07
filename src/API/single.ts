@@ -3,7 +3,6 @@ import {IDataType, jjRequest} from "@/service";
 /**
  * 首页展示单量查询
  * 描述：首页展示单量查询
- * @param  time
  * @return list
  */
 export const orderQuantity = () => {
@@ -46,9 +45,10 @@ export const orderanalysis = (time: any) => {
 /**
  * 单量信息
  * 描述：单量详情页面头部数据
- * @param  data:{"dept":1,     //部门
- "month":"2021-10"   //月份}
+ // * {"dept":1,     //部门
+ // "month":"2021-10"   //月份}
  * @return list
+ * @param data
  */
 export const orderanalysisInfo = (data: any) => {
     return jjRequest.request<IDataType>({
@@ -76,9 +76,9 @@ export const orderanalysisRegion = (data: any) => {
 /**
  * 地区单量走势
  * 描述：日纬度统计地区单量走势数据
- * @param  data:{"dept":1,     //部门
  "month":"2021-10"   //月份}
  * @return list
+ * @param data
  */
 export const orderanalysisTrend = (data: any) => {
     return jjRequest.request<IDataType>({

@@ -60,7 +60,7 @@ const feedbacSubmit = () => {
       type: radioValue.value,
       content: feedbackVal.value
     };
-    proposalSave(data).then(res => {
+    proposalSave(data).then(() => {
       feedbackShow.value = true;
     })
   }
