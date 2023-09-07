@@ -5,134 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="vantTS">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dxr.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist(移动端).rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image/claimsStatusBG3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/InsuranceClaims.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/analyze.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/bank.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/baseinfo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/department.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/feedback.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/infosource.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/login.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/material.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/notice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/personnel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/API/single.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/Insurance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/ListNone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/NotBank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/Pizzahut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/Single.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/SingleQuery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/accidentGuide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/cardBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/claimsStatus3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/dai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/homeBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/itemsDamage.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/loginBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/month.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/newClaimsBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/notify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/personnelInjured.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/resign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/singleanalyze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/singleanalyzeBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/successfulIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/sure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/zhuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/vantBase/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/areaPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/echarts.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/fontSvg.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/scrolllList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/router/list.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/request/request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/desensitization.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isBank.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isEmpty.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isIDcard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RegIndex/isPhone.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Insurance/Insurance.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Insurance/InsuranceGuide.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Insurance/InsuranceRelation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/feedback/submitfeedback.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/login/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/material/materialList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/notice/noticedetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/notice/noticelist.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/personal/base.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/personal/personalinfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/personal/revisepassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/personnel/analyze.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/personnel/personnel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/register/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/register/registernotice.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/register/registersuccess.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/register/regnotdetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/resign/resign.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/resign/resignlist.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/salary/addsalarycard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/salary/salarycard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/single/singledetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/echarts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/echarts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +83,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "ts.external.directory.path": "D:\\桌面\\店小二移动端\\dxr\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -355,7 +230,7 @@
       <workItem from="1693536006822" duration="99687000" />
       <workItem from="1694056946023" duration="739000" />
       <workItem from="1694057726145" duration="4945000" />
-      <workItem from="1694069951306" duration="653000" />
+      <workItem from="1694069951306" duration="2053000" />
     </task>
     <task id="LOCAL-00001" summary="vantTS">
       <created>1649497475573</created>
@@ -428,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694068028501</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="vantTS">
+      <option name="closed" value="true" />
+      <created>1694070835476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694070835476</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
