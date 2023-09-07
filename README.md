@@ -1,18 +1,23 @@
-<<<<<<< HEAD
-# vantTS
-=======
+# 店小二
 
-# Vue 3 + Typescript + Vite + yarn
+# 微信公众号移动端页面
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue
-3 `<script setup>` SFCs, check out
-the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
++ [生产环境](http://www.x2yun.cn/dxemobile)
++ [开发环境](http://192.168.0.198/dxemobile)
 
-## Recommended IDE Setup
+### 开发工具
+
+> * [Vue3](https://cn.vuejs.org/)
+> * [Vant4](https://vant-contrib.gitee.io/vant)
+> * [Typescript](https://www.typescriptlang.org/zh/docs/)
+> * [Vite4](https://cn.vitejs.dev/)
+> * [yarn](https://yarnpkg.com/)
+
+## 推荐的IDE设置
 
 - [VSCode](https://code.visualstudio.com/)
     + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
+- [WebStorm](https://www.jetbrains.com.cn/webstorm/promo/)
 ## Type Support For `.vue` Imports in TS
 
 Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type

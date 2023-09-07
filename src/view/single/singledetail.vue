@@ -25,14 +25,14 @@
     <div class="collect-title">单量汇总</div>
     <div class="collect-content">
       <div class="collect-content-num">
-        <div>{{ !summary.mnthlyCumulative ? 0 : summary.mnthlyCumulative }}</div>
+        <div>{{ !summary.count ? 0 : summary.count }}</div>
         <div>
           <font-svg :class="'iconSvg'" :icon="'#icon-yueleijidanliang-87'"/>
           月累计单量
         </div>
       </div>
       <div class="collect-content-num">
-        <div>{{ !summary.ailyAverage ? 0 : summary.ailyAverage }}</div>
+        <div>{{ !summary.average ? 0 : summary.average }}</div>
         <div>
           <font-svg :class="'iconSvg'" :icon="'#icon-zuoridanliang-92'"/>
           日均单量
@@ -92,13 +92,7 @@ import HeadBack from '@/components/header.vue';
 import fontSvg from '@/components/fontSvg.vue';
 import {onBeforeMount, ref} from "vue";
 import dayjs from "dayjs";
-import {
-  orderanalysis,
-  orderanalysisInfo,
-  orderanalysisRegion,
-  orderanalysisSummary,
-  orderanalysisTrend
-} from "@/API/single";
+import {orderanalysisInfo, orderanalysisRegion, orderanalysisSummary, orderanalysisTrend} from "@/API/single";
 import {useRoute, useRouter} from "vue-router";
 
 const router = useRouter();
@@ -295,33 +289,51 @@ const getOrderanalysisInfo = (dataRes: any) => {
 const getOrderanalysisSummary = (data: unknown) => {
   orderanalysisSummary(data).then(res => {
     if (!!res) {
-      summary.value = res.data.data[0]
+      summary.value = res.data.data[0];
+      echartsList.value = []
+      let newData = res.data.data.slice(1)
+      newData.forEach((r: any) => {
+        let data = {
+          dept: r.id,
+          month: dateVal.value.join('-')
+        }
+        echartsList.value.push({
+          id: r.id,
+          name: r.name,
+          className: `echarts${r.id}`,
+          singInfo: {}
+        })
+        getOrderanalysisInfo(data)
+        getTrend(data)
+        if (r.flag === 1) {
+          getRegion(data)
+        }
+      });
     }
   })
 }
 const getOrderanalysis = (time: unknown) => {
   echartsList.value = []
   getOrderanalysisSummary(time)
-  orderanalysis(time).then(res => {
-    res.data.data.forEach((r: any) => {
-      let data = {
-        dept: r.id,
-        month: dateVal.value.join('-')
-      }
-      echartsList.value.push({
-        id: r.id,
-        name: r.name,
-        className: `echarts${r.id}`,
-        singInfo: {}
-      })
-      console.log(echartsList.value)
-      getOrderanalysisInfo(data)
-      getTrend(data)
-      if (r.flag === 1) {
-        getRegion(data)
-      }
-    });
-  })
+  // orderanalysis(time).then(res => {
+  //   res.data.data.forEach((r: any) => {
+  //     let data = {
+  //       dept: r.id,
+  //       month: dateVal.value.join('-')
+  //     }
+  //     echartsList.value.push({
+  //       id: r.id,
+  //       name: r.name,
+  //       className: `echarts${r.id}`,
+  //       singInfo: {}
+  //     })
+  //     getOrderanalysisInfo(data)
+  //     getTrend(data)
+  //     if (r.flag === 1) {
+  //       getRegion(data)
+  //     }
+  //   });
+  // })
 };
 
 onBeforeMount(() => {
@@ -449,6 +461,11 @@ $color: #ff9c00;
 
   .title2:before {
     background: url("@/assets/image/Pizzahut.png") no-repeat;
+  }
+
+  .title3:before {
+    background: url("@/assets/image/mai.png") no-repeat;
+
   }
 
   .Meituan-tile:before {

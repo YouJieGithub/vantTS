@@ -82,9 +82,24 @@ const username = computed<string>(() => store.state.userInfoModule.username)
 const staffFlag = computed<number | null>(() => store.state.userInfoModule.staffFlag)
 const positionName = computed<string>(() => store.state.userInfoModule.positionName)
 
+const postsIcon = () => {
+  let Icon = '';
+  switch (staffFlag.value) {
+    case 0:
+      Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
+      break;
+    case 1:
+      Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
+      break;
+    case 2:
+      Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
+      break;
+  }
+  return Icon;
+}
 
 const state = reactive<any>({
-  icon: '#icon-a-zhiweitubiao_huaban1fuben14',
+  icon: postsIcon(),
   card: [
     {
       icon: '#icon-a-danliangfenxi_huaban1fuben73',

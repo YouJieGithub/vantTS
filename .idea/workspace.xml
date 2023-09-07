@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="vantTS">
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/analyze.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/analyze.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/login.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API/single.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/single.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/scrolllList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/scrolllList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/feedback/submitfeedback.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/feedback/submitfeedback.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/resign/resign.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/resign/resign.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/single/singledetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singledetail.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +65,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -102,21 +95,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\Administrator\AppData\Local\Temp\qodana_output2\qodana.sarif.json" />
-        <option name="reportGuid" value="7077fcd6-1e62-48f2-8107-ed16498131d9" />
-        <option name="reportName" value="dxr/qodana/2023-09-07" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output2\qodana.sarif.json" reportGuid="7077fcd6-1e62-48f2-8107-ed16498131d9" reportId="dxr/qodana/2023-09-07" />
+      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output7\qodana.sarif.json" reportGuid="c391f8ff-7764-46ba-a382-8939a3c63488" reportId="dxr/qodana/2023-09-07" />
       <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output1\qodana.sarif.json" reportGuid="f109e596-65cb-4f19-9f27-b90b4c31f4af" reportId="dxr/qodana/2023-09-07" />
       <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="17a94b01-48dc-451e-b02e-bd9d40fa879e" reportId="dxr/qodana/2023-09-07" />
     </option>
@@ -132,7 +114,7 @@
       <recent name="D:\桌面\店小二移动端\dxr\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name=".eslintrc.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/.eslintrc.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -158,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="Node.js..eslintrc.js" />
       </list>
     </recent_temporary>
@@ -263,7 +245,7 @@
       <workItem from="1693536006822" duration="99687000" />
       <workItem from="1694056946023" duration="739000" />
       <workItem from="1694057726145" duration="4945000" />
-      <workItem from="1694069951306" duration="3090000" />
+      <workItem from="1694069951306" duration="12734000" />
     </task>
     <task id="LOCAL-00001" summary="vantTS">
       <created>1649497475573</created>
@@ -352,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694072072380</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="vantTS">
+      <option name="closed" value="true" />
+      <created>1694073237083</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694073237083</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
