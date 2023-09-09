@@ -118,7 +118,7 @@ onBeforeMount(() => {
 .iconfont {
   margin-right: 29px;
   font-size: 26px;
-  color: #aaaaaa;
+  color: #c4c4c4;
 }
 
 .login-page {

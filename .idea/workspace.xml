@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="vantTS">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/mai.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/menu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/personnel/analyze.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/personnel/analyze.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/single/singledetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singledetail.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +255,7 @@
       <workItem from="1693536006822" duration="99687000" />
       <workItem from="1694056946023" duration="739000" />
       <workItem from="1694057726145" duration="4945000" />
-      <workItem from="1694069951306" duration="12734000" />
+      <workItem from="1694069951306" duration="31167000" />
     </task>
     <task id="LOCAL-00001" summary="vantTS">
       <created>1649497475573</created>
@@ -342,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694073237083</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="vantTS">
+      <option name="closed" value="true" />
+      <created>1694083718313</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694083718313</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

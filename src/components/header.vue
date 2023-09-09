@@ -32,6 +32,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 .nav-title {
   font-size: 28px;
+  font-weight: 500;
 }
 
 </style>

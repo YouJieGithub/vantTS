@@ -14,11 +14,11 @@
     <div class="single-detail-content">
       <div class="single-detail-content-title">人员状态</div>
       <div class="personnel-status">
-        <div class="personnel-status-left">
+        <div class="personnel-status-left van-hairline--right">
           <p>{{ statisticNumsList.total }}</p>
           <p>在职员工</p>
         </div>
-        <div class="personnel-status-right van-hairline--left">
+        <div class="personnel-status-right">
           <div class="personnel-status-right-top van-hairline--bottom">
             <div><p>{{ statisticNumsList.fulling }}</p>
               <p>全职</p></div>
@@ -223,6 +223,7 @@ const countDivergenceSever = () => {
     }
     lineOption.value = {
       legend: {
+        top: 15,
         right: 0
       },
       tooltip: {
@@ -236,7 +237,7 @@ const countDivergenceSever = () => {
         textStyle: {color: '#fff'}
       },
       grid: {
-        top: 50,
+        top: 70,
         left: 0,
         right: 0,
         bottom: '9%',
@@ -518,8 +519,8 @@ onBeforeMount(() => {
     left: 0;
     transform: translateY(-50%);
     content: '';
-    width: 4px;
-    height: 24px;
+    width: 7px;
+    height: 25px;
     background-color: #ff9c00;
     border-radius: 2px;
   }
@@ -531,6 +532,7 @@ onBeforeMount(() => {
     font-size: 20px;
 
     .personnel-status-left {
+      padding: 43px 0;
       flex: 1;
       text-align: center;
 
@@ -582,7 +584,7 @@ onBeforeMount(() => {
   font-size: 22px;
   text-align: left;
   color: #999999;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .single-detail-EntryAndExit {
@@ -610,7 +612,7 @@ onBeforeMount(() => {
 
 .entry-induction-sum {
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 30px;
   display: flex;
   font-size: 22px;
@@ -622,7 +624,7 @@ onBeforeMount(() => {
 
     p {
       line-height: 40px;
-      font-weight: 100;
+      font-weight: 400;
     }
   }
 }

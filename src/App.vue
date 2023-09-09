@@ -81,4 +81,14 @@ html, body {
 .setDefaultNotify {
   line-height: 20px !important;
 }
+
+
+#nprogress .bar {
+  background: #ff9c00 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ff9c00 !important;
+  border-left-color: #ff9c00 !important;
+}
 </style>

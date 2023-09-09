@@ -152,11 +152,13 @@ const getAccidentDetail = () => {
     margin: 0 24px;
     padding-top: 90px;
     padding-bottom: 50px;
+    font-weight: bolder;
     font-size: 36px;
     color: #ffffff;
 
     p {
       font-size: 20px;
+      font-weight: 400;
     }
   }
 
@@ -171,12 +173,14 @@ const getAccidentDetail = () => {
       font-size: 28px;
       color: #333333;
       vertical-align: unset;
+      font-weight: bolder;
 
       span {
         display: inline-block;
         margin-right: 20px;
         width: 30px;
         height: 30px;
+        font-weight: 100;
         text-align: center;
         background-color: #ff9c00;
         color: #ffffff;

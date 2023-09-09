@@ -3,7 +3,8 @@
   <List v-model:loading="loading" :finished="finished" :immediate-check="false"
         class="personnel-page" @load="onLoad">
     <div v-for="item in list" :key="item.id" class="feedback">
-      <Cell :title="'反馈类型：'+feedbackType[item.type]" :value="item.gmtCreate" title-class="cell-title-class"
+      <Cell :title="'反馈类型：'+feedbackType[item.type]" :value="item.gmtCreate" class="feedback_cell"
+            title-class="cell-title-class"
             value-class="value-class"></Cell>
       <div class="feedback_list van-cell">
         <p><span>反馈详情：</span>{{ item.content }}</p>
@@ -68,7 +69,10 @@ onBeforeMount(() => {
 
 .feedback {
   margin: 20px 24px;
-  background: #ffffff;
+
+  .feedback_cell {
+    border-radius: 24px 24px 0 0;
+  }
 
   :deep(.cell-title-class) {
     font-size: 24px;
@@ -82,6 +86,7 @@ onBeforeMount(() => {
 
   .feedback_list {
     padding: 30px;
+    border-radius: 0 0 24px 24px;
 
     p {
       line-height: 42px;

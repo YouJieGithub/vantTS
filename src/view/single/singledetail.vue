@@ -213,7 +213,19 @@ const getTrend = (dataRes: any) => {
           if (r.id === dataRes.dept) {
             r.lineOption = {
               legend: {},
-              tooltip: {},
+              tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                  type: 'line',
+                  animation: true,
+                },
+                formatter: (params: any) => {
+                  return `日期：${params[0].value[0]}号<br/>单量：${params[0].value[1]}`
+                },
+                backgroundColor: 'rgba(0,0,0,0.5)',
+                borderColor: 'rgba(0,0,0,0)',
+                textStyle: {align: 'left', color: '#fff'}
+              },
               grid: {
                 top: 20,
                 left: 40,
@@ -228,7 +240,6 @@ const getTrend = (dataRes: any) => {
               xAxis: {
                 type: 'category',
                 axisLabel: {
-                  interval: 0,
                   rotate: 40,
                   color: '#999999',
                   fontSize: fontSize(20)
@@ -396,6 +407,7 @@ $color: #ff9c00;
     padding-left: 17px;
     position: relative;
     font-size: 28px;
+    font-weight: bolder;
     color: #333333;
   }
 
@@ -405,8 +417,8 @@ $color: #ff9c00;
     left: 0;
     transform: translateY(-50%);
     content: "";
-    width: 0.05333rem;
-    height: 0.32rem;
+    width: 7px;
+    height: 25px;
     background-color: #ff9c00;
     border-radius: 0.02667rem;
   }
@@ -422,7 +434,7 @@ $color: #ff9c00;
       > div:first-child {
         font-size: 36px;
         color: #333333;
-        font-weight: bolder;
+        font-weight: 700;
       }
 
       > div:last-child {
@@ -484,7 +496,7 @@ $color: #ff9c00;
     text-align: center;
 
     > div:first-child {
-      padding: 37px 0;
+      padding: 20px 0;
       font-size: 24px;
       color: #ff9c00;
     }

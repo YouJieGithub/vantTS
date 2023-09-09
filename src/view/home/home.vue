@@ -10,7 +10,7 @@
           </div>
         </div>
         <div class="page-user-info-title"><p>{{ username }}</p>
-          <div class="page-user-info-flag">15812345678</div>
+          <div class="page-user-info-flag">{{ telephone }}</div>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@
         <div class="menu-swiper-list">
           <template v-for="(item,index) in card" :key="index">
             <div v-if="item.status.includes(staffFlag)" @click="onToPage(item.url)">
-              <font-svg :icon="item.icon"/>
+              <font-svg :className="'icon-style'" :icon="item.icon"/>
               <p>{{ item.title }}</p>
             </div>
           </template>
@@ -80,7 +80,7 @@ const router = useRouter();
 const store = useStore();
 const username = computed<string>(() => store.state.userInfoModule.username)
 const staffFlag = computed<number | null>(() => store.state.userInfoModule.staffFlag)
-const positionName = computed<string>(() => store.state.userInfoModule.positionName)
+const telephone = computed<string | number>(() => store.state.userInfoModule.telephone)
 
 const postsIcon = () => {
   let Icon = '';
@@ -89,10 +89,10 @@ const postsIcon = () => {
       Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
       break;
     case 1:
-      Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
+      Icon = '#icon-a-zizhanghao_huaban1fuben12';
       break;
     case 2:
-      Icon = '#icon-a-zhiweitubiao_huaban1fuben14';
+      Icon = '#icon-a-zongzhanghao_huaban1fuben13';
       break;
   }
   return Icon;
@@ -134,7 +134,7 @@ const state = reactive<any>({
       url: ''
     },
     {
-      icon: '#icon-a-baoanlipei_huaban1fuben54',
+      icon: '#icon-a-baoxianlipei_huaban1fuben93',
       title: '报案理赔',
       tip: '发生事故不用慌',
       status: [0, 1, 2],
@@ -142,7 +142,7 @@ const state = reactive<any>({
       url: '/ClaimsList'
     },
     {
-      icon: '#icon-a-yinhangka_huaban1fuben91',
+      icon: '#icon-a-yinhangka_huaban1fuben70',
       title: '银行卡',
       tip: '工资入账',
       status: [0, 1, 2],
@@ -304,14 +304,14 @@ $fontSize: 24px;
 
   .card-single {
     margin-top: 80px;
-    padding-top: 115px;
+    padding: 115px 64px 0;
     display: flex;
-    justify-content: space-around;
-
 
     .card-single-yesterday {
+      margin-right: 163px;
       color: #333333;
       font-size: 24px;
+      overflow: hidden;
 
       p:nth-of-type(2) {
         font-size: 60px;
@@ -414,6 +414,11 @@ $fontSize: 24px;
           padding: 10px 0;
           text-align: center;
 
+          .icon-style {
+            width: 50px;
+            height: 50px;
+          }
+
           p:last-child {
             font-size: $fontSize;
             color: #333333;
@@ -427,11 +432,11 @@ $fontSize: 24px;
     height: initial;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding-top: 110px;
+    padding-top: 80px;
     padding-bottom: 52px;
 
     .notify-list {
-      padding: 0 18px;
+      padding: 0 30px;
 
       .notify-list-content {
         padding: 30px 0;
@@ -446,6 +451,10 @@ $fontSize: 24px;
         > div:last-child {
           padding: 10px 0;
           font-size: $fontSize;
+        }
+
+        .custom-title {
+          font-weight: unset;
         }
       }
 

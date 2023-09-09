@@ -241,6 +241,7 @@ onBeforeMount(() => {
   .collect-content-num {
     > div:first-child {
       font-size: 36px;
+      font-weight: 700;
     }
 
     > div:last-child {
@@ -250,7 +251,10 @@ onBeforeMount(() => {
 }
 
 .echarts-zhuan {
+  margin-top: 20px;
   text-align: center;
+  background: #ffffff;
+  border-radius: 24px;
 
   > div:first-child {
     padding: 37px 0;
