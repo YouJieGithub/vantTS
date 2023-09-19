@@ -1,0 +1,36 @@
+//底部按钮
+
+.feedback_submit {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.card {
+  margin: 0 24px 20px;
+  padding: 10px 30px 20px;
+  font-size: 28px;
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 24px;
+
+  .card-title-before {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 17px;
+    position: relative;
+    font-weight: bolder;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .card-title-before:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    content: "";
+    width: 7px;
+    height: 30px;
+    background-color: #ff9c00;
+    border-radius: 8px;
+  }
+}

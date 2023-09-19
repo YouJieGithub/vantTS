@@ -271,7 +271,6 @@ $color: #ff9c00;
       margin: 0 auto;
       width: 500px;
       height: 80px;
-      box-shadow: 0 8px 19px 1px #ead8ad;
       border-radius: 40px;
 
     }

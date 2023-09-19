@@ -165,5 +165,35 @@ export const routes: any = [
         name: "material",
         meta: {title: "物料"},
         component: () => import("@/view/material/materialList.vue"),
+    },
+    {
+        path: "/recharget",
+        name: "recharget",
+        meta: {title: "PAY"},
+        component: () => import("@/view/PAY/recharget.vue"),
+    },
+    {
+        path: "/payment",
+        name: "payment",
+        meta: {title: "立即支付"},
+        component: () => import("@/view/PAY/payment.vue"),
+    },
+    {
+        path: "/records",
+        name: "records",
+        meta: {title: "申请记录"},
+        component: () => import("@/view/PAY/records.vue"),
+    },
+    {
+        path: "/applyRorRefund",
+        name: "applyRorRefund",
+        meta: {title: "申请退款"},
+        component: () => import("@/view/PAY/applyForRefund.vue"),
+    },
+    {
+        path: "/PAYdetail",
+        name: "PAYdetail",
+        meta: {title: "申请详情"},
+        component: () => import("@/view/PAY/PAYdetail.vue"),
     }
 ];

@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="card card-single" @click="router.push('singledetail')">
+    <div v-if="![0].includes(staffFlag)" class="card card-single" @click="router.push('singledetail')">
       <img alt="单量" src="@/assets/image/SingleQuery.png">
       <div class="card-single-yesterday">
         <p>{{ quantityInfo.time }}</p>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="card menu">
+    <div :class="![0,1].includes(staffFlag)?'card menu':'card menu menu-single'">
       <img alt="菜单" src="@/assets/image/menu.png">
       <div class="menu-swiper">
         <div class="menu-swiper-list">
@@ -79,7 +79,7 @@ import fontSvg from '@/components/fontSvg.vue';
 const router = useRouter();
 const store = useStore();
 const username = computed<string>(() => store.state.userInfoModule.username)
-const staffFlag = computed<number | null>(() => store.state.userInfoModule.staffFlag)
+const staffFlag = computed<any>(() => store.state.userInfoModule.staffFlag)
 const telephone = computed<string | number>(() => store.state.userInfoModule.telephone)
 
 const postsIcon = () => {
@@ -132,6 +132,7 @@ const state = reactive<any>({
       status: [0, 1, 2],
       BGcolor: '#fffaf2',
       url: ''
+      // url: '/recharget'
     },
     {
       icon: '#icon-a-baoxianlipei_huaban1fuben93',
@@ -389,6 +390,10 @@ $fontSize: 24px;
     background-color: #dadada
   }
 
+  .menu-single {
+    margin-top: 80px !important;
+  }
+
   .menu {
     margin-top: 20px;
     padding-bottom: 30px;
@@ -458,6 +463,9 @@ $fontSize: 24px;
         }
       }
 
+      .notify-list-content:last-child {
+        border-bottom: none;
+      }
     }
   }
 

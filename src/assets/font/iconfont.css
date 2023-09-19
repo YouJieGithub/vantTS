@@ -1,8 +1,8 @@
 @font-face {
-    font-family: "iconfont"; /* Project id 4240036 */
-    src: url('iconfont.woff2?t=1693987219354') format('woff2'),
-    url('iconfont.woff?t=1693987219354') format('woff'),
-    url('iconfont.ttf?t=1693987219354') format('truetype');
+    font-family: "iconfont"; /* Project id 4248836 */
+    src: url('iconfont.woff2?t=1694673640637') format('woff2'),
+    url('iconfont.woff?t=1694673640637') format('woff'),
+    url('iconfont.ttf?t=1694673640637') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,14 @@
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a-shijianjiedian_huaban1fuben97:before {
+    content: "\e6ec";
+}
+
+.icon-weixinzhifu:before {
+    content: "\e650";
 }
 
 .icon-a-danliangfenxi_huaban1fuben16:before {
@@ -219,5 +227,17 @@
 
 .icon-a-PAY_huaban1fuben92:before {
     content: "\e6e8";
+}
+
+.icon-a-dianxiaoer-tubiao_huaban1fuben94:before {
+    content: "\e6e9";
+}
+
+.icon-a-shangchuantupian_huaban1fuben95:before {
+    content: "\e6ea";
+}
+
+.icon-a-dianxiaoer-tubiao_huaban1fuben96:before {
+    content: "\e6eb";
 }
 

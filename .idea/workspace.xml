@@ -4,23 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="vantTS">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/mai.png" afterDir="false" />
+    <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="添加充值功能">
+      <change afterPath="$PROJECT_DIR$/src/API/pay.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/public.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/PAYList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/payListBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/paydetailBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/refusalOfRefund.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/待审批@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/退款中@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/退款成功@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/wechatPay.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PAY/PAYdetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PAY/applyForRefund.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PAY/payment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PAY/recharget.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/PAY/records.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/userinfo/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/userinfo/interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/ClaimsList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/claimsDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/list.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/feedback/feedbacklist.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/login/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/personnel/analyze.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/personnel/analyze.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singleanalyze.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/single/singledetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/single/singledetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +51,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="TypeScript File" />
         <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="Vue Options API Component" />
+        <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -88,36 +105,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/桌面/店小二移动端/dxr",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "ts.external.directory.path": "D:\\桌面\\店小二移动端\\dxr\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/桌面/店小二移动端/dxr/src/assets/image&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\桌面\\店小二移动端\\dxr\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Options API Component&quot;,
+      &quot;Vue Composition API Component&quot;
+    ]
   }
-}]]></component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output2\qodana.sarif.json" reportGuid="7077fcd6-1e62-48f2-8107-ed16498131d9" reportId="dxr/qodana/2023-09-07" />
-      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output7\qodana.sarif.json" reportGuid="c391f8ff-7764-46ba-a382-8939a3c63488" reportId="dxr/qodana/2023-09-07" />
-      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output1\qodana.sarif.json" reportGuid="f109e596-65cb-4f19-9f27-b90b4c31f4af" reportId="dxr/qodana/2023-09-07" />
-      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="17a94b01-48dc-451e-b02e-bd9d40fa879e" reportId="dxr/qodana/2023-09-07" />
-    </option>
-  </component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\店小二移动端\dxr\src\assets\image" />
       <recent name="D:\桌面\店小二移动端\dxr\src\assets\font" />
       <recent name="D:\桌面\店小二移动端\dxr\src\assets\fontSvg" />
-      <recent name="D:\桌面\店小二移动端\dxr\src\assets\image" />
       <recent name="D:\桌面\店小二移动端\dxr\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -255,7 +270,9 @@
       <workItem from="1693536006822" duration="99687000" />
       <workItem from="1694056946023" duration="739000" />
       <workItem from="1694057726145" duration="4945000" />
-      <workItem from="1694069951306" duration="31167000" />
+      <workItem from="1694069951306" duration="54234000" />
+      <workItem from="1694589470630" duration="4632000" />
+      <workItem from="1694594638227" duration="75289000" />
     </task>
     <task id="LOCAL-00001" summary="vantTS">
       <created>1649497475573</created>
@@ -360,7 +377,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694083718313</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="vantTS">
+      <option name="closed" value="true" />
+      <created>1694255054675</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694255054675</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +431,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="vantTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="vantTS" />
+    <MESSAGE value="添加充值功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加充值功能" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

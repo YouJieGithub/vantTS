@@ -50,8 +50,8 @@ export default defineConfig({
     open: false, //是否自动打开
     proxy: {
       "^/api": {
-        // target: "http://192.168.3.100:9094/dxe/mobile", // 后端服务实际地址
-        target: "http://192.168.0.198/dxe/mobile", // 后端服务实际地址
+        target: "http://192.168.0.50:9094/dxe/mobile", // 后端服务实际地址
+        // target: "http://192.168.0.198/dxe/mobile", // 后端服务实际地址
         // target: "http://39.106.140.225/dxe/mobile", // 后端服务实际地址
         changeOrigin: true, //开启代理
         rewrite: (path) => path.replace(/^\/api/, ""),
