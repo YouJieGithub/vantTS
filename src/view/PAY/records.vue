@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="申请记录"/>
+  <HeadBack :title="route.meta.title"/>
   <div class="records">
     <div v-for="(item,index) in payList" :key="index" :style="index===payList.length-1?'border:none':''"
          class="records-list" @click="router.push({name:'PAYdetail',state:{id:item.id}})">
@@ -22,9 +22,10 @@ import HeadBack from "@/components/header.vue";
 import {onBeforeMount, ref} from "vue";
 import {refundApplyList} from "@/API/pay";
 import {IDataType} from "@/service";
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 
 const router = useRouter();
+const route=useRoute();
 const payList = ref<any>([])
 const getRecordApplyList = () => {
   refundApplyList().then((res: IDataType) => {

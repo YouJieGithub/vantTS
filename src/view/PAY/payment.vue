@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="立即支付"/>
+  <HeadBack :title="route.meta.title"/>
   <div class="amount">
     <div class="amount-card">
       <div class="amount-card-tile">
@@ -26,6 +26,9 @@ import HeadBack from "@/components/header.vue";
 import {Button} from "vant";
 import {recordSave} from "@/API/pay";
 import WechatPay from "@/utils/wechatPay";
+import {useRoute} from "vue-router";
+
+const route=useRoute();
 
 const pay = () => {
   recordSave({money: 200}).then((res: any) => {

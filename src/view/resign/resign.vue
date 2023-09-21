@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="离职通道"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div class="resign">
     <div class="resign_title"><h2>离职通道</h2></div>
     <div class="resign_content">
@@ -33,6 +33,9 @@ import HeadBack from '@/components/header.vue';
 import {Button, Picker, Popup, showToast} from 'vant';
 import {onBeforeMount, ref} from "vue";
 import {resignSave, staffStatus, systemInform} from "@/API/login";
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const show = ref<boolean>(false);
 const columns = ref<any>([]);

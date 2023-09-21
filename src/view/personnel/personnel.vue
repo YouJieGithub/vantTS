@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-personnel">
-    <HeadBack :title="'人员管理'"></HeadBack>
+    <HeadBack :title="route.meta.title"></HeadBack>
     <Search v-model="searchValue" background="#f7f7ff" class="search-class" placeholder="请输入姓名或手机号码搜索"
             @clear="onInitStaff" @search="onInitStaff"/>
     <Tabs v-model:active="active" background="#f7f7ff" color="#ff9c00" title-active-color="#ff9c00"
@@ -37,6 +37,9 @@ import HeadBack from '@/components/header.vue';
 import {List, Search, Tab, Tabs, Tag} from 'vant';
 import {onBeforeMount, ref} from "vue";
 import {staffList} from "@/API/personnel";
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const tabs = ref<Array<string>>(['试岗期', '正式', '离职中', '已离职'])
 const personnelList = ref<Array<any>>([]);

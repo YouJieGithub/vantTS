@@ -1,6 +1,6 @@
 <template>
   <div class="sticky-personnel">
-    <HeadBack :title="'人员分析'"></HeadBack>
+    <HeadBack :title="route.meta.title"></HeadBack>
   </div>
   <div class="analyze-detail">
     <Field v-model="depFieldValue" class="analyze-field" placeholder="选择部门" readonly right-icon="arrow-down"
@@ -130,9 +130,12 @@ import dayjs from 'dayjs'
 import weekOfYear from 'dayjs/plugin/weekOfYear';
 
 import sureImg from '@/assets/image/sure.png'
+import {useRoute} from "vue-router";
 
 dayjs.extend(weekOfYear)
 
+
+const route=useRoute()
 
 const depId = ref<number | null>(null);   //部门id
 const depCloseIcon = ref<any>(sureImg);     //部门 级联选择框关闭图标

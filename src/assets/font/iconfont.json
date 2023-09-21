@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "37436614",
+      "name": "平均值",
+      "font_class": "pingjunzhi-115",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "37436626",
+      "name": "月累计单量",
+      "font_class": "yueleijidanliang-114",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
       "icon_id": "37367788",
       "name": "时间节点",
       "font_class": "a-shijianjiedian_huaban1fuben97",

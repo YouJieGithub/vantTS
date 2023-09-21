@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="理赔流程"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div class="Insurance-img">
     <img alt="保险理赔" src="@/assets/image/Insurance.png">
   </div>
@@ -33,7 +33,9 @@ import {Icon, Picker, Popup} from 'vant';
 import {ref, shallowReactive} from "vue";
 import InsuranceGuide from './InsuranceGuide.vue';
 import InsuranceRelation from './InsuranceRelation.vue';
+import {useRoute} from "vue-router";
 
+const route=useRoute()
 interface cellValueT {
   value: string,
   index: number

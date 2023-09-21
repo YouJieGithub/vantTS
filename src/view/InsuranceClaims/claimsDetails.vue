@@ -1,7 +1,7 @@
 <template>
   <HeadBack title="报案详情"></HeadBack>
   <div :style="levelIconBG">
-    <div :style="`background-image:url(./image/claimsStatusBG${claimsDetails.status}.png)`" class="claims_details-body">
+    <div :style="!claimsDetails.status?'':`background-image:url(./image/claimsStatusBG${claimsDetails.status}.png)`" class="claims_details-body">
       <div class="claims_details-body-title">
         {{ statusToStr(claimsDetails.status) }}
         <p>事件编码：<span>{{ claimsDetails.eventCode }}</span></p>

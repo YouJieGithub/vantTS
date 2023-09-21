@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="申请记录"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div v-for="item in list" :key="item.id" class="resign_list">
     <div>
       <p>离职原因：{{ item.reason }}</p>
@@ -18,6 +18,9 @@ import HeadBack from '@/components/header.vue';
 import {Divider, showConfirmDialog} from 'vant';
 import {onBeforeMount, ref} from "vue";
 import {resignCancel, resignList} from "@/API/login";
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const list = ref<Array<any>>([]);
 const statusArray = ref<Array<string>>(['同意', '驳回', '待审批', '已取消'])

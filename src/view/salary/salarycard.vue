@@ -1,6 +1,6 @@
 <template>
   <div class="salarycard">
-    <HeadBack :title="'银行卡'"></HeadBack>
+    <HeadBack :title="route.meta.title"></HeadBack>
     <div v-if="isShowCard">
       <div class="salary-card-content">
         <div class="salary-card-content-icon"><img alt="银行卡" src="@/assets/image/card.png"></div>
@@ -36,6 +36,9 @@ import {Button} from 'vant'
 import {Desensitization} from '@/utils/RegIndex/desensitization';
 import {bankBandQuery} from '@/API/bank'
 import {ref} from "vue";
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const isShowCard = ref<boolean>(true);
 const cardNum = ref<string>('');

@@ -91,4 +91,8 @@ html, body {
   border-top-color: #ff9c00 !important;
   border-left-color: #ff9c00 !important;
 }
+
+:root:root {
+  --van-dialog-message-font-size: 32px;
+}
 </style>

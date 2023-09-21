@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="申请退款"/>
+  <HeadBack :title="route.meta.title"/>
   <div class="apply-for-refund">
     <div class="van-hairline--bottom">退款申请</div>
     <div class="apply-for-refund-time">
@@ -28,7 +28,7 @@
 import HeadBack from "@/components/header.vue";
 import {Button, showToast, Uploader} from "vant";
 import {onBeforeMount, ref} from "vue";
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import {recordGetSTS, refundSave} from "@/API/pay";
 import OSS from 'ali-oss'
 import Compressor from "compressorjs";
@@ -37,6 +37,7 @@ const fileList = ref<object[]>([]);
 const ImageList = ref<object[]>([]);
 const isLoading = ref<boolean>(false)
 const router = useRouter();
+const route=useRoute();
 
 const amount = ref<number | string | string[]>(history.state.amount);
 const payTime = ref<number | string | string[]>(history.state.payTime);

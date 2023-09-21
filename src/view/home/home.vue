@@ -81,6 +81,7 @@ const store = useStore();
 const username = computed<string>(() => store.state.userInfoModule.username)
 const staffFlag = computed<any>(() => store.state.userInfoModule.staffFlag)
 const telephone = computed<string | number>(() => store.state.userInfoModule.telephone)
+const integral=computed<boolean>(()=>store.state.userInfoModule.integral)
 
 const postsIcon = () => {
   let Icon = '';
@@ -98,6 +99,14 @@ const postsIcon = () => {
   return Icon;
 }
 
+/*
+* status  {
+* 2  总管理员
+* 1  子管理员
+* 0  员工
+* }
+* */
+
 const state = reactive<any>({
   icon: postsIcon(),
   card: [
@@ -107,7 +116,8 @@ const state = reactive<any>({
       tip: '各地区单量数据',
       status: [2],
       BGcolor: '#f0f8fe',
-      url: '/singledetail'
+      url: '/singledetail',
+      integral:true
     },
     {
       icon: '#icon-a-renyuanfenxi_huaban1fuben74',
@@ -149,6 +159,14 @@ const state = reactive<any>({
       status: [0, 1, 2],
       BGcolor: '#fff3f4',
       url: '/salary'
+    },
+    {
+      icon: '#icon-a-jifenshangcheng_huaban1fuben100',
+      title: '积分商城',
+      tip: '积分商城',
+      status:!integral?[1]:[0,1,2],
+      BGcolor: '#fff3f4',
+      url: '/pointsMall'
     },
     {
       icon: '#icon-a-yijianfankui_huaban1fuben76',
@@ -255,15 +273,15 @@ $fontSize: 24px;
           display: flex;
           justify-content: space-around;
           align-items: center;
-          width: 46px;
-          height: 22px;
+          width: 48px;
+          height: 24px;
           z-index: 999;
           background-color: #feb942;
           border-radius: 11px;
 
           svg {
-            width: 46px;
-            height: 22px;
+            width: 48px;
+            height: 24px;
           }
         }
       }

@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962cbe96-c0d9-459a-a69d-64de6b71a8ed" name="Changes" comment="添加充值功能">
-      <change afterPath="$PROJECT_DIR$/src/API/pay.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/public.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/PAYList.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/payListBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/paydetailBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/refusalOfRefund.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/待审批@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/退款中@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/退款成功@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/wechatPay.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PAY/PAYdetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PAY/applyForRefund.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PAY/payment.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PAY/recharget.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/PAY/records.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/customizationVant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/font/iconfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/list.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InsuranceClaims/newClaims.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/home/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/home/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist(移动端).rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +244,18 @@
       <workItem from="1694057726145" duration="4945000" />
       <workItem from="1694069951306" duration="54234000" />
       <workItem from="1694589470630" duration="4632000" />
-      <workItem from="1694594638227" duration="75289000" />
+      <workItem from="1694594638227" duration="78001000" />
+      <workItem from="1695259957099" duration="4182000" />
+      <workItem from="1695380009073" duration="71000" />
+      <workItem from="1695380167831" duration="6000" />
+      <workItem from="1695380394757" duration="22000" />
+      <workItem from="1695433388618" duration="1000" />
+      <workItem from="1695433479139" duration="240000" />
+      <workItem from="1695434035024" duration="1953000" />
+      <workItem from="1695439163143" duration="21000" />
+      <workItem from="1695448267277" duration="3281000" />
+      <workItem from="1695895062106" duration="87000" />
+      <workItem from="1696651180990" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="vantTS">
       <created>1649497475573</created>
@@ -385,7 +368,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694255054675</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加充值功能">
+      <option name="closed" value="true" />
+      <created>1695104326908</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695104326908</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加充值功能">
+      <option name="closed" value="true" />
+      <created>1695260052498</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695260052498</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

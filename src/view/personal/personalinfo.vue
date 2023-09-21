@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="个人信息"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <CellGroup>
     <Cell center is-link label="姓名、手机号、站点等" title="基础信息" to="/base"></Cell>
     <Cell center is-link label="修改密码" title="账号安全" to="/revisepassword"></Cell>
@@ -11,10 +11,11 @@
 <script lang="ts" setup>
 import HeadBack from '@/components/header.vue';
 import {Button, Cell, CellGroup, showConfirmDialog} from 'vant';
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import {systemlogout} from "@/API/login";
 //引入路由
 const router = useRouter()
+const route=useRoute()
 
 
 //退出登录

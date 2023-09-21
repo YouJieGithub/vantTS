@@ -19,6 +19,7 @@
     "compressorjs": "^1.2.1",
     "dayjs": "^1.10.7",
     "echarts": "^5.2.2",
+    "mathjs": "^12.1.0",
     "md5": "^2.3.0",
     "nprogress": "^0.2.0",
     "postcss": "^8.4.4",

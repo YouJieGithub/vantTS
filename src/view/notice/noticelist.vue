@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="通知"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <Sticky :offset-top="46">
     <Search v-model="searchVal" background="#f7f7ff" class="search-class" placeholder="搜索通知标题"
             @clear="getNoticeList" @search="getNoticeList"/>
@@ -30,7 +30,10 @@
 import HeadBack from '@/components/header.vue';
 import {Cell, List, Search, Sticky} from 'vant';
 import {onBeforeMount, ref} from "vue";
-import {noticeList} from '@/API/notice'
+import {noticeList} from '@/API/notice';
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const flag = ref<number>(0);
 const page = ref<number>(1);

@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="申请详情"/>
+  <HeadBack :title="route.meta.title"/>
   <div class="pay-detail">
     <div class="list_none-icon">
       <Empty :description="detail.stateStr" :image="ListNone" class="pay-detail-empty"></Empty>
@@ -58,6 +58,9 @@ import HeadBack from "@/components/header.vue";
 import fontSvg from '@/components/fontSvg.vue';
 import {onBeforeMount, ref} from "vue";
 import {recordApply} from "@/API/pay";
+import {useRoute} from "vue-router";
+
+const route=useRoute();
 
 const ListNone: any = new URL('../../assets/image/refusalOfRefund.png', import.meta.url).href;
 

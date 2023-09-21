@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="基础信息"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div class="base-page">
     <Form :show-error-message="false" validate-first @failed="onFailed" @submit="onSubmit">
       <CellGroup class="cell_group">
@@ -85,6 +85,9 @@ import dayjs from "dayjs";
  */
 import {PhoneReg} from "@/utils/RegIndex/isPhone";
 import {throttle} from "@/utils";
+import {useRoute} from "vue-router";
+
+const route=useRoute()
 
 const final = ref<any>({});
 const update = ref<any>({});

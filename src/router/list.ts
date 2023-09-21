@@ -133,13 +133,13 @@ export const routes: any = [
     {
         path: "/resignlist",
         name: "resignlist",
-        meta: {title: "离职申请记录"},
+        meta: {title: "申请记录"},
         component: () => import("@/view/resign/resignlist.vue"),
     },
     {
         path: "/Insurance",
         name: "Insurance",
-        meta: {title: "店小二"},
+        meta: {title: "理赔流程"},
         component: () => import("@/view/Insurance/Insurance.vue")
     },
     {
@@ -195,5 +195,41 @@ export const routes: any = [
         name: "PAYdetail",
         meta: {title: "申请详情"},
         component: () => import("@/view/PAY/PAYdetail.vue"),
+    },
+    {
+        path: "/pointsMall",
+        name: "pointsMall",
+        meta: {title: "积分商城"},
+        component: () => import("@/view/integral/MallHome.vue"),
+    },
+    {
+        path: "/integralDetail",
+        name: "integralDetail",
+        meta: {title: "积分明细"},
+        component: () => import("@/view/integral/integralDetail.vue"),
+    },
+    {
+        path: "/integralRule",
+        name: "integralRule",
+        meta: {title: "积分兑换规则"},
+        component: () => import("@/view/integral/rule.vue"),
+    },
+    {
+        path: "/ExchangeOrder",
+        name: "ExchangeOrder",
+        meta: {title: "我的兑换"},
+        component: () => import("@/view/integral/ExchangeOrder.vue"),
+    },
+    {
+        path: "/goodsDetail",
+        name: "goodsDetail",
+        meta: {title: "商品详情"},
+        component: () => import("@/view/integral/goodsDetail.vue"),
+    },
+    {
+        path: "/ConfirmExchange",
+        name: "ConfirmExchange",
+        meta: {title: "确认兑换"},
+        component: () => import("@/view/integral/ConfirmExchange.vue"),
     }
 ];

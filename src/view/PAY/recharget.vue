@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="PAY"/>
+  <HeadBack :title="route.meta.title"/>
   <div v-if="!!list" class="pay-list">
     <div class="pay-list-card"
          @click.stop="!!list.rechargeRefundId?router.push({name:'PAYdetail',state:{id:list.rechargeRefundId}}):''">
@@ -27,12 +27,13 @@
 <script lang="ts" setup>
 import {Button, Col, Empty, Row} from "vant";
 import HeadBack from "@/components/header.vue";
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import {rechargeList} from "@/API/pay";
 import {IDataType} from "@/service";
 import {onBeforeMount, ref} from "vue";
 
 const router = useRouter();
+const route=useRoute();
 const ListNone: any = new URL('../../assets/image/PAYList.png', import.meta.url).href;
 
 /**

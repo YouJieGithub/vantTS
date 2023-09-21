@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="通知详情"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div class="notice_detail">
     <div>
       <p class="notice_detail_title">{{ Info.title }}</p>

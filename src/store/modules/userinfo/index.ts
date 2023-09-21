@@ -8,13 +8,15 @@ const userInfoModule: Module<userStateTypes, RootStateTypes> = {
     state: {
         staffFlag: null,
         username: "",
-        telephone: ""
+        telephone: "",
+        integral:false
     },
     mutations: {
         setState(state, data) {
             state.staffFlag = data.staffFlag;
             state.username = data.username;
             state.telephone = data.telephone;
+            state.integral=data.integral;
         },
     },
     actions: {},

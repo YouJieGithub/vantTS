@@ -1,5 +1,5 @@
 <template>
-  <HeadBack title="修改密码"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <CellGroup class="cell_group">
     <Field v-model.trim="oldPassword" input-align="right" label="原密码" maxlength="50" placeholder="请输入原密码"
            type="password"></Field>
@@ -31,10 +31,11 @@ import HeadBack from '@/components/header.vue';
 import {Button, CellGroup, Field, Overlay, showNotify} from 'vant';
 import {updatePsw} from '@/API/login';
 import {ref} from "vue";
-import {useRouter} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import {throttle} from "@/utils";
 
 const router = useRouter();
+const route=useRoute()
 const againLoginDialog = ref<boolean>(false);
 const oldPassword = ref<string>('');
 const urgentperson = ref<string>('');

@@ -1,5 +1,5 @@
 <template>
-  <HeadBack :title="'单量分析'"></HeadBack>
+  <HeadBack :title="route.meta.title"></HeadBack>
   <div class="single">
     <Sticky :offset-top="46">
       <div class="time-operate">
@@ -27,14 +27,14 @@
       <div class="collect-content-num">
         <div>{{ !summary.count ? 0 : summary.count }}</div>
         <div>
-          <font-svg :class="'iconSvg'" :icon="'#icon-yueleijidanliang-87'"/>
+          <font-svg :class="'iconSvg'" :icon="'#icon-yueleijidanliang-114'"/>
           月累计单量
         </div>
       </div>
       <div class="collect-content-num">
         <div>{{ !summary.average ? 0 : summary.average }}</div>
         <div>
-          <font-svg :class="'iconSvg'" :icon="'#icon-zuoridanliang-92'"/>
+          <font-svg :class="'iconSvg'" :icon="'#icon-pingjunzhi-115'"/>
           日均单量
         </div>
       </div>
