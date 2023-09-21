@@ -255,15 +255,15 @@ $fontSize: 24px;
           display: flex;
           justify-content: space-around;
           align-items: center;
-          width: 46px;
-          height: 22px;
+          width: 48px;
+          height: 24px;
           z-index: 999;
           background-color: #feb942;
           border-radius: 11px;
 
           svg {
-            width: 46px;
-            height: 22px;
+            width: 48px;
+            height: 24px;
           }
         }
       }
