@@ -62,6 +62,7 @@ onBeforeMount(() => {
 .detail_Swipe {
   position: relative;
   background: #ffffff;
+  height: 750px;
 
   .detail_img {
     display: flex;
@@ -69,7 +70,8 @@ onBeforeMount(() => {
     align-items: center;
 
     img {
-      height: 520px;
+      width: 100%;
+      height: 750px;
     }
   }
 

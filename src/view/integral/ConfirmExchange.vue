@@ -94,8 +94,7 @@ const onSubmit = () => {
   }).then(() => {
     let data = {
       count: numVal.value,
-      integralProductsId: detail.value.id,
-      address: addressInfo.value.address
+      integralProductsId: detail.value.id
     }
     submitOrder(data).then(res => {
       if (res.data.data!=='下单成功'){

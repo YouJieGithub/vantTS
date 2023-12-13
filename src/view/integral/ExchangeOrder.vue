@@ -1,5 +1,6 @@
 <template>
   <HeadBack :title="route.meta.title"></HeadBack>
+  <template v-if="!!list.length">
   <div class="order_list">
     <List v-model:loading="loading" :finished="finished" @load="onLoad">
       <div v-for="(item,index) in list" class="goods">
@@ -19,10 +20,14 @@
       </div>
     </List>
   </div>
+  </template>
+  <div v-else class="list_none-icon">
+    <Empty :image="ListNone" description="暂无记录"></Empty>
+  </div>
 </template>
 
 <script lang="ts" setup>
-import {List} from 'vant';
+import {Empty, List} from 'vant';
 import HeadBack from "@/components/header.vue";
 import {useRoute} from "vue-router";
 import {integralOrderList} from "@/API/points";
@@ -34,6 +39,9 @@ interface pageTypes {
 }
 
 const route = useRoute()
+
+const ListNone: any = new URL('../../assets/image/integralList.png', import.meta.url).href;
+
 
 const list = ref<any>([]);
 
@@ -129,6 +137,20 @@ onBeforeMount(() => {
         font-size: 28px;
       }
     }
+  }
+}
+
+.list_none-icon {
+  margin-top: 100px;
+
+  :deep(.van-empty__image) {
+    width: 198px;
+    height: 159px;
+  }
+
+  :deep(.van-empty__description) {
+    font-size: 30px;
+    color: #000000;
   }
 }
 </style>
