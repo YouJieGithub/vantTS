@@ -1,10 +1,45 @@
 {
   "id": "4248836",
-  "name": "12313",
+  "name": "店小二移动端",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "38267502",
+      "name": "我的积分",
+      "font_class": "a-wodejifen_huaban1fuben101",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "38267503",
+      "name": "积分明细",
+      "font_class": "a-jifenmingxi_huaban1fuben102",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "38267504",
+      "name": "我的兑换",
+      "font_class": "a-wodeduihuan_huaban1fuben103",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "38267505",
+      "name": "积分商城",
+      "font_class": "a-jifenshangcheng_huaban1fuben100",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "38330399",
+      "name": "感叹号",
+      "font_class": "a-gantanhao_huaban1fuben104",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
     {
       "icon_id": "37436614",
       "name": "平均值",
